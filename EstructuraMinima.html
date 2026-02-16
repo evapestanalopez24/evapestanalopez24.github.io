@@ -6,8 +6,17 @@
     <title>Mi Portfolio</title>
 
     <style>
+        a
+        {
+            text-decoration: none;
+            color:aquamarine;
+        } 
+        nav a:hover
+        {
+            color:white;
+        }
         .city {
-            background-color: green;
+            background-color: palevioletred;
             color: white;
             border: 2px solid black;
             margin: 20px;
@@ -35,7 +44,7 @@
                 <li><a href="EstructuraMinima.html">Inicio</a></li>
                 <li><a href="pag2.html">Proyectos</a></li>
                 <li><a href="pag3.html">Sobre mí</a></li>
-                
+
             </ul>
         </nav>
     </header>
@@ -46,25 +55,27 @@
         <!-- SECCIÓN DE BIENVENIDA -->
         <section>
             <h1>Bienvenido a mi Portfolio</h1>
-            <p>Este es un ejemplo de estructura básica con HTML semántico.</p>
         </section>
 
         <!-- ARTÍCULO DE PROYECTO -->
         <article>
-            <h2>Proyecto Destacado</h2>
 
             <figure>
-                <img src="imagenes/ejemplo.jpg" alt="Captura del proyecto">
-                <figcaption>Descripción breve del proyecto mostrado en la imagen.</figcaption>
+                <img src="imagenes/3.jpg" alt="Captura del proyecto" width="320" height="560">
+                <br>
+                <br>
+                <figcaption>Contacto: evapestana95@gmail.com</figcaption>
             </figure>
         </article>
 
     </main>
 
     <!-- PIE DE PÁGINA -->
-    <footer>
-        <p>© 2026 – Eva Pestaña López</p>
-    </footer>
+    <br>
+    <div class="city">
+        <footer>
+            <p>© 2026 – Eva Pestaña López</p>
+        </footer>
 
 </body>
 </html>
